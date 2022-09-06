@@ -5,4 +5,4 @@ function recursion(thing,num,other){
     return num
 }
 
-setInterval(console.log(recursion(number=>Math.round(Math.random()*number),1000,1000),1000)
+setInterval(document.write(recursion(number=>Math.round(Math.random()*number),1000,1000),1000)
